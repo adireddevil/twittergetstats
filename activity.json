@@ -25,7 +25,7 @@
 	},
 	{
 		"name": "accessTokenSecret",
-		"type": "boolean",
+		"type": "string",
       "required": true
 
 	},
@@ -47,6 +47,9 @@
     {
       "name": "statusCode",
       "type": "string"
+    },{
+      "name": "count",
+      "type": "int"
     },
     {
       "name": "message",
